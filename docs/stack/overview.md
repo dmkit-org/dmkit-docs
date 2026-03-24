@@ -27,5 +27,5 @@ sidebar_position: 1
 | `dmkit-frontend` | Next.js application |
 | `dmkit-backend` | Go API server |
 | `dmkit-infra` | Terraform infrastructure |
-| `dmkit-ci` | Shared CI/CD workflows and git hooks |
+| `dmkit-devops` | Shared CI/CD workflows and git hooks |
 | `dmkit-docs` | This documentation site |

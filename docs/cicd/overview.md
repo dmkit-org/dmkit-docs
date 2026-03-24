@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # CI/CD Overview
 
-DMKit uses GitHub Actions for all CI/CD pipelines. Shared configuration and git hooks live in the `dmkit-ci` repository and are referenced by each sub-project.
+DMKit uses GitHub Actions for all CI/CD pipelines. Shared configuration and git hooks live in the `dmkit-devops` repository and are referenced by each sub-project.
 
 ## Pipeline Summary
 
@@ -13,7 +13,7 @@ DMKit uses GitHub Actions for all CI/CD pipelines. Shared configuration and git 
 | Pull request | Lint, test, build |
 | Merge to `main` | Lint, test, build, release, deploy |
 
-## Shared Tooling (`dmkit-ci`)
+## Shared Tooling (`dmkit-devops`)
 
 | Tool | Purpose |
 |---|---|

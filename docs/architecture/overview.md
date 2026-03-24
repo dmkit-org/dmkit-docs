@@ -13,7 +13,7 @@ dmkit/
 ├── dmkit-frontend/   # Next.js application
 ├── dmkit-backend/    # Go API server
 ├── dmkit-infra/      # Terraform infrastructure
-├── dmkit-ci/         # CI/CD pipelines and shared hooks
+├── dmkit-devops/         # CI/CD pipelines and shared hooks
 ├── dmkit-docs/       # This documentation site
 ├── docs/             # Specs and proof artifacts
 └── stories/          # Feature stories

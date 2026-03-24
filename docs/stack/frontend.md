@@ -30,7 +30,7 @@ sidebar_position: 2
 
 - ESLint with `eslint-config-next`
 - Prettier for formatting
-- Commitlint enforcing Conventional Commits (via `dmkit-ci`)
+- Commitlint enforcing Conventional Commits (via `dmkit-devops`)
 
 ## Build & Deploy
 

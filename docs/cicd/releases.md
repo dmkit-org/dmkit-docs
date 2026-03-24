@@ -29,7 +29,7 @@ On each release, `semantic-release` automatically:
 
 ## Configuration
 
-`semantic-release` is configured in `dmkit-ci` and shared across repositories. The plugin chain is:
+`semantic-release` is configured in `dmkit-devops` and shared across repositories. The plugin chain is:
 
 ```
 @semantic-release/commit-analyzer
