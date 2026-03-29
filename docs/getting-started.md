@@ -38,6 +38,6 @@ From inside a campaign you can access:
 
 ## Next Steps
 
-- [Build your first World and add Locations](./worlds-and-locations)
-- [Create entities for your campaign](./entities)
-- [Run a battle map session](./battle-map)
+- [Build your first World and add Locations](./features/worlds-and-locations)
+- [Create entities for your campaign](./features/entities)
+- [Run a battle map session](./features/battle-map)

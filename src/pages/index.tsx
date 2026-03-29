@@ -15,11 +15,11 @@ function Hero() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/architecture/overview">
-            Read the Docs
-          </Link>
-          <Link className="button button--outline button--secondary button--lg" to="/docs/user-guides/getting-started">
+          <Link className="button button--secondary button--lg" to="/docs/getting-started">
             Getting Started
+          </Link>
+          <Link className="button button--outline button--secondary button--lg" to="/docs/features/campaigns">
+            Features
           </Link>
         </div>
       </div>
