@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://dmkit-org.github.io',
-  baseUrl: '/dmkit-docs/',
+  baseUrl: '/dmkit-user-docs/',
 
   organizationName: 'dmkit-org',
-  projectName: 'dmkit-docs',
+  projectName: 'dmkit-user-docs',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -28,7 +28,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/dmkit-org/dmkit-docs/tree/main/',
+          editUrl: 'https://github.com/dmkit-org/dmkit-user-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -71,22 +71,23 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Architecture', to: '/docs/architecture/overview' },
-            { label: 'Stack', to: '/docs/stack/overview' },
-            { label: 'Testing', to: '/docs/testing/strategy' },
+            { label: 'Getting Started', to: '/docs/getting-started' },
+            { label: 'FAQ', to: '/docs/faq' },
+            { label: 'Roadmap', to: '/docs/roadmap' },
           ],
         },
         {
-          title: 'Engineering',
+          title: 'Features',
           items: [
-            { label: 'CI/CD', to: '/docs/cicd/overview' },
-            { label: 'Monitoring', to: '/docs/monitoring/overview' },
+            { label: 'Campaigns', to: '/docs/features/campaigns' },
+            { label: 'Battle Map', to: '/docs/features/battle-map' },
+            { label: 'Worlds & Locations', to: '/docs/features/worlds-and-locations' },
           ],
         },
         {
-          title: 'Guides',
+          title: 'More',
           items: [
-            { label: 'Getting Started', to: '/docs/user-guides/getting-started' },
+            { label: "What's New", to: '/docs/changelog' },
             { label: 'GitHub', href: 'https://github.com/dmkit-org' },
           ],
         },
