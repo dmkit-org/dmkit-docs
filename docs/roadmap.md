@@ -1,6 +1,5 @@
 ---
-id: roadmap
-title: Roadmap
+sidebar_position: 5
 ---
 
 # DMKit Roadmap
