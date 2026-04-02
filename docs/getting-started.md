@@ -38,6 +38,35 @@ From inside a campaign you can access:
 
 ## Next Steps
 
+### Navigating to a Campaign
+
+After signing in, you'll land on the campaign list. Click any campaign to open its canvas.
+
+The **left sidebar** shows your campaigns as a collapsible tree. Click a campaign name to expand it and see its worlds.
+
+### How the Sidebar Tree Works
+
+- Click a campaign to expand it and navigate to its canvas
+- Click again to collapse it
+- Only one branch is open at a time — clicking a different campaign collapses the previous one
+- Each level loads its children the first time you expand it (worlds → locations → areas)
+- If a level's data is temporarily unavailable, it shows as greyed out — your other campaigns still work normally
+
+### What the Breadcrumb Shows
+
+The breadcrumb bar at the top shows your location in the hierarchy:
+
+```
+Campaigns / My Campaign / The Underdark / Waterdeep / Yawning Portal
+```
+
+- **Campaigns** always links back to the campaign list
+- Each name in the breadcrumb is a link to that level
+- The last item (where you are now) is plain text
+- Names are filled in as you navigate — if a name hasn't loaded yet, you'll see the ID temporarily
+
+### Further Reading
+
 - [Build your first World and add Locations](./features/worlds-and-locations)
 - [Create entities for your campaign](./features/entities)
 - [Run a battle map session](./features/battle-map)
