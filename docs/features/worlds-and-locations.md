@@ -14,8 +14,13 @@ A Campaign can have multiple Worlds — a continent, a plane of existence, a cit
 3. The World canvas opens — blank by default
 
 **Adding a background map:**
-- Click **Upload Map** to upload a PNG, JPG, or WebP image as the canvas background
-- Click **Generate Map** to describe your world in a text prompt and generate a map image via AI
+- Click **Upload Map** to upload a PNG, JPG, or WebP image (up to 10MB) as the canvas background
+
+DMKit doesn't generate map art itself — instead, build your map in a dedicated map-making tool and upload the finished image. Popular options:
+- [Dungeon Scrawl](https://dungeonscrawl.com/) — dungeon and battle maps
+- [Wonderdraft](https://www.wonderdraft.net/) — world and regional maps
+- [Inkarnate](https://inkarnate.com/) — world, regional, and city maps
+- [Azgaar's Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/) — procedural world maps, free
 
 ## Locations
 
